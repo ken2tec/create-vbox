@@ -2,6 +2,7 @@
 [Devian8Jpdev.box](https://app.vagrantup.com/ken2tec/boxes/Debian8JpDev) virtualbox  Hosted by Vagrant Cloud (1.23 GB)
 当時はサイトにアップしないと再利用できないと勘違いしていた。 fish shellなんてものまで入れてしまい少し汚くなったけど、それでも展開後のHDDが3GB前後。
 ApacheからNginxに変更してmariadbやmongodbとかサーバーアプリは一通り揃えてからPHPは当時最新の7.1を結構苦労してインストール。vagrant upするだけですぐに遊べるから結構イケてると思う。
+
  |機能|内容|
 |:---|:---|
 |HDD|VMDK500GB|
