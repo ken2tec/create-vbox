@@ -4,7 +4,7 @@
 ApacheからNginxに変更してmariadbやmongodbとかサーバーアプリは一通り揃えてからPHPは当時最新の7.1を結構苦労してインストール。vagrant upするだけですぐに遊べるから結構イケてると思う。
 
  |機能|内容|
-|:---|:---|
+:---|:---
 |HDD|VMDK500GB|
 |Memory|1024MB|
 |Video Memory|32MB|
@@ -178,7 +178,7 @@ default.confファイルをいろいろ調整するけど詳細は省略
 ```bash
 	sudo vim /etc/nginx/conf.d/default.conf
 ```
-## WEB操作環境を一通り揃えよう
+## WEB操作環境を一通り揃える
 ```bash
 	sudo apt-get install redis-server
 # mongodb
