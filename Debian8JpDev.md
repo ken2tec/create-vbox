@@ -25,13 +25,13 @@ ApacheからNginxに変更してmariadbやmongodbとかサーバーアプリは�
 
 
 ## 作成開始
-まずはnetInstall ISOからVirtual Boxで普通にインストール。aptitudeをインストールしたのはapt-getから見つからないアプリがあったから。
+まずはnetInstall ISOからVirtual Boxで普通にインストール。aptitudeをインストールしたのはapt-getから見つからないアプリがあったから。あとは初期のセッティングに必要なものをゲット。
 ```bash
 	apt-get update & apt-get dist-upgrade
 	apt-get install aptitude
 	aptitude update
 	aptitude upgrade
-	aptitude install sudo build-essential module-assistant vim tree curl git bleachbit gnome-system-monitor xdg-user-dirs-gtk zip conkey-all
+	aptitude install sudo build-essential module-assistant vim tree curl git gnome-system-monitor xdg-user-dirs-gtk zip
 	m-a prepare
 ```
 ## VirtualBox でDevices > Install Guest Additions
