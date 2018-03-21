@@ -158,7 +158,7 @@ PHP7.1も同様
 ```
 ## HTTPDをapache2からnginxに変更
 ```bash
-	sudo systemctl enable apache2
+	sudo systemctl disable apache2
 	sudo nginx
 	sudo systemctl unmask nginx.service
 	sudo systemctl enable nginx
